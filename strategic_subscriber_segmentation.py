@@ -808,7 +808,7 @@ cm = gensim.models.CoherenceModel(model=lda_model, texts = docs, dictionary = di
 coherence = (cm.get_coherence(), num_topics)
 coherence
 
-"""And we can visualize the topics with pyLDAvis."""
+"""And we can visualize the topics with pyLDAvis. While we can't render it here, you can access it on GitHub [here](http://htmlpreview.github.io/?https://github.com/YuDrew/strategic-subscriber-segmentation/blob/main/ldavis_prepared_12.html)"""
 
 import pyLDAvis.gensim
 import pickle 
